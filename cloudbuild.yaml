@@ -8,3 +8,5 @@ steps:
     args: ['run', 'deploy', 'runwithcicd', '--image', 'gcr.io/devops-cert-440119/runimage', '--region', 'us-central1', '--allow-unathenticated']
 images:
   - gcr.io/devops-cert-440119/runimage
+options:
+  logging: CLOUD_LOGGING_ONLY
